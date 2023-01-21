@@ -1,4 +1,4 @@
-* [Google Drive Shared Folder](https://drive.google.com/drive/folders/17wkdIiwigWwixrt9uU-LinQiCI-icx8N?usp=sharing) - Shared folder of lecture slides, and other materials.
+* [One Drive Shared Folder](https://csuchico-my.sharepoint.com/:f:/g/personal/bcdixon_csuchico_edu/EqVJc2HYadVLmdEUh67XrjwBdqbCQyV9o7DF3wHIY1itXw?e=xgBdlm) - Shared folder of lecture slides, recordings, and other materials. Must be authenticated to the campus OneDrive to access.
 
 * [Android](https://developer.android.com) - Android developer page
 
