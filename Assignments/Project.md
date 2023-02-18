@@ -51,7 +51,7 @@ The project concept submission is an early general project concept submission. T
 * Project Description
   * This should describe what your project is and what you expect it to accomplish. I would also highlight how you expect your app to use internet connectivity along with either location or the camera.
 
-You will need to write this and submit it as a **PDF** document to me via email with the subject line *CINS467 Project Concept* with all of your team members CC'd.
+You will need to write this and submit it as a **PDF** document to me submit it to canvas. You should be able to create a team on canvas so you can submit as a team. Only need 1 submission per team, but make sure the all team members are on the document.
 
 ## <a name="proposal">Project Proposal</a>
 
@@ -79,7 +79,7 @@ Your project proposal is both what your project is, but also what you expect to 
   * I highly recommend thinking through the responsibilities for each team member at this stage. Depending on your project and if you have a team of 3, it would also potentially be worthwhile to have someone focus on test completeness/soundness for all the functionality of your app, which would make the usefulness of tying your project into a CI/CD framework we'll discuss in class more beneficial. 
 
 
-You will need to write this and submit it as a **PDF** document to me via email with the subject line *CINS467 Project Proposal* with all of your team members CC'd. If you want faster feedback you can email your project proposal to me, before the submission deadline. Submitting it significantly before the deadline, will allow me to give you feedback without any grade penalty.
+You will need to write this and submit it as a **PDF** document to canvas. You should be able to create a team on canvas so you can submit as a team. Only need 1 submission per team, but make sure the all team members are on the document. If you want faster feedback before the sumission. You can email me with the subject line *CINS467 Project Proposal* with all of your team members CC'd. For this early feedback you need to email me significantly before the deadline, will allow me to give you feedback before the deadline.
 
 ## <a name="submission">Project Submission</a>
 
