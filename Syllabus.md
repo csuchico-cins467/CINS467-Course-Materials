@@ -140,3 +140,7 @@ I am part of the Safe Zone Ally community network of trained Chico State faculty
 ## LGBTQ Equality Statement
 
 I am firmly committed to diversity and equality in all areas of campus life, including specifically members of the LGBTQ community. In this class I will work to promote an anti-discriminatory environment where everyone feels safe and welcome. I recognize that discrimination can be direct or indirect and take place at both institutional and personal levels. I believe that such discrimination is unacceptable and I am committed to providing equality of opportunity for all by eliminating any and all discrimination, harassment, bullying, or victimization. The success of this policy relies on the support and understanding of everyone in this class. We all have a responsibility not to be offensive to each other, or to participate in, or condone harassment or discrimination of any kind.
+
+## Important note about a possible work stoppage during the semester
+
+The California Faculty Association (the labor union of Lecturers, Professors, Coaches, Counselors, and Librarians across the 23 CSU campuses) is in a difficult contract dispute with California State University management. It is possible that we will call a strike or other work stoppage this term. I promise to promptly inform you of any schedule disruption. Our working conditions are your learning conditions; we seek to protect both. For further information go to [www.CFAbargaining.org](www.CFAbargaining.org).
