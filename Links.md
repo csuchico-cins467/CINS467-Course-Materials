@@ -1,4 +1,4 @@
-* [One Drive Shared Folder](https://csuchico-my.sharepoint.com/:f:/g/personal/bcdixon_csuchico_edu/EqVJc2HYadVLmdEUh67XrjwBdqbCQyV9o7DF3wHIY1itXw?e=xgBdlm) - Shared folder of lecture slides, recordings, and other materials. Must be authenticated to the campus OneDrive to access.
+* [One Drive Shared Folder]() - Shared folder of lecture slides, recordings, and other materials. Must be authenticated to the campus OneDrive to access.
 
 * [Android](https://developer.android.com) - Android developer page
 
