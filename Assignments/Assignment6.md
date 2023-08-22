@@ -44,7 +44,7 @@ When you have your APK move it to the root directory of your GIT repo that you w
 ```
 In your web.md file you should have a web URL for your assignment hosted online. 
 
-### Now submit your code to the **assignment6** branch:
+### Now submit your code to the **assignment6** branch on GitLab:
 
 ```
 git checkout -b assignment6 #create branch and switch to it
