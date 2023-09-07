@@ -115,8 +115,8 @@ class MyApp extends StatelessWidget {
 Remove the build folder and then explicitly build a new apk:
 
 ```bash
-~/repos/CINS467-repo/AssignmentProject$ rm -rf build
-~/repos/CINS467-repo/AssignmentProject$ flutter build apk
+~/repos/CINS467-repo/assignmentproject$ rm -rf build
+~/repos/CINS467-repo/assignmentproject$ flutter build apk
 ```
 
 Once you find it move it to the root directory of your GIT repo that you created to turn in assignments for this class. The file should be in the build folder path here: *build/app/outputs/flutter-apk/app-release.apk*
