@@ -126,7 +126,7 @@ If you don't have one go use the form on my website to request one. As we'll sub
 ```
     /
     ...app-release.apk
-    ...AssignmentProject/
+    ...assignmentproject/
     ......android/
     ......ios/
     ......web/
