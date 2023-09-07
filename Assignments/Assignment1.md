@@ -83,10 +83,10 @@ Use *flutter doctor -v* to make sure your setup is configured correctly. An exam
 So to start create a "New Flutter Project", which you could do via the VScode or Android studio plugins; however, I would do it in the commandline where you want to host your project code. I would run this in the folder where the repo you'll be submitting to is cloned.
 
 ```bash
-~/repos/CINS467-repo/$ flutter create AssignmentProject
+~/repos/CINS467-repo/$ flutter create assignmentproject
 ```
 
-You can name your project whatever you wish, and can use the same project for all of the assignment submissions. I opted to name it *AssignmentProject* for my example.
+You can name your project whatever you wish, and can use the same project for all of the assignment submissions. I opted to name it *assignmentproject* for my example.
 
 From here edit your main.dart to have a Text widget that says "CINS467 Hello World". The following would work; however, for the *home* component of *MaterialApp* I would **highly recommend** you wrap the Text widget in a *Scaffold/Column* so that the Text widget is centered and easier to see with your required text.
 
