@@ -47,7 +47,7 @@ The project concept submission is an early general project concept submission. T
   * Your project proposal should be titled with what you expect to call your app.
 * Project Members
   * You should make sure that you identify who all the members of the project team right below the project title.
-  * You're required to work in teams of 2-3 for the project unless otherwise approved.
+  * You're recommended to work in teams of 2 for the project, a team of three requires a significantly more involved project and approval. You can work individually. 
 * Project Description
   * This should describe what your project is and what you expect it to accomplish. I would also highlight how you expect your app to use internet connectivity along with either location or the camera.
 
@@ -61,7 +61,7 @@ Your project proposal is both what your project is, but also what you expect to 
   * Your project proposal should be titled with what you expect to call your app.
 * Project Members
   * You should make sure that you identify who all the members of the project team right below the project title.
-  * You're required to work in teams of 2-3 for the project unless otherwise approved.
+  * You're recommended to work in teams of 2 for the project, a team of three requires a significantly more involved project and approval. You can work individually. 
 * Project Description
   * This should be the first section where you will describe what your project is and what you expect it to accomplish.
   * You should also indicate if you are building for Android or Web at this point. You are not required to do both but you are welcome to target more than one platform. 
