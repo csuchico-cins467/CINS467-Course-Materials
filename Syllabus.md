@@ -18,9 +18,6 @@ Students who take this class without completing the prerequisite class will be g
 
 * Canvas
   * [Chico State Canvas](https://canvas.csuchico.edu/) - I am teaching two sections of CINS467 this semester, and I will use the same Canvas Course for both sections. One other section of CINS467 is being taught by a different professor; make sure you are able to access my section of CINS 467.
-* PollEverywhere
-  * [Login/Create Account](https://www.polleverywhere.com/auth/saml/csuchico) - If you have not already done so, create an account and login to PollEverywhere. PollEverywhere will be used during lectures for feedback and to track participation. There is a campus license for PollEverywhere and for your participation to be registered, your account must be tied to your csuchico email.
-  * [pollev.com/techturtle](https://pollev.com/techturtle) - This is the PollEv link that will be used during lectures throughout the semester.
 
 ## Textbook
 
@@ -28,13 +25,13 @@ There is no required textbook for this course. Instead, throughout the semester,
 
 ## Laptop
 
-**Bringing your laptop to class is highly recommended**. Class meetings will include lecture, lab help sessions, and presentations. During and/or after class lectures, my goal is to provide some time for you to get some hands-on experience with the content discussed during lecture. Lab help sessions are intended to give you some time to work on your final project and show me that you are making progress. For presentations, it is beneficial for you to bring your laptop in order to share and demonstrate your app to the class.
+**Bringing your laptop to class is highly recommended**. Class meetings will include lecture, lab help sessions, and presentations. Many students benefit greatly from following along on their own computers as I build examples. Lab help sessions are intended to give you some time to work on your final project and show me that you are making progress. For presentations, it is beneficial for you to bring your laptop in order to share and demonstrate your app to the class.
 
 ## Attendance
 
-**Attendance is highly recommended**. A portion of your overall grade is based on lecture attendance (tracked through PollEverywhere questions) and lab help session attendance (tracked through a sign-in sheet). You need to attend 80% of lectures and lab help sessions to receive full credit for this portion of the grade. I try to provide lecture recordings to make it easier for you to review class content; however, watching the recordings is not an alternative to attending class.<br>
+**Attendance is highly recommended**. A portion of your overall grade is based on help session attendance (tracked through a sign-in sheet). You need to attend 80% of lab help sessions to receive full credit for this portion of the grade. I try to provide lecture recordings to make it easier for you to review class content; however, watching the recordings is not an alternative to attending class.<br>
 
-Missing class can make the projects and exams especially difficult. If I verbally change the requirements of a project during lecture, you are responsible for meeting the new requirements. If you miss a class, make sure you review the lecture recordings and/or get notes from another student.<br>
+Missing class can make the projects especially difficult. If I verbally change the requirements of a project during a lecture, you are responsible for meeting the new requirements. If you miss a class, make sure you review the lecture recordings and/or get notes from another student.<br>
 
 If you **regularly** skip class, do not expect me to answer questions on the material you missed. If you need to miss **occasionally** for legitimate reasons, please take advantage of the lecture recordings and feel free to ask questions on the material you missed.<br>
 
@@ -51,14 +48,9 @@ Check Canvas to see your currently available grades, and let me know as soon as 
 | Individual Assignments (Small Programming Projects, Quizzes) | 40 |
 | Final Project (APK or Website), Final Project Feedback Form | 36 |
 | Final Project Concept, Final Project Proposal | 6 |
-| Final Project Presentation, Presentation Feedback Forms | 9 |
-| Lecture Attendance, Lab Help Session Attendance, Project Progress Updates | 9 |
+| Final Project Presentation, Presentation Feedback Forms | 12 |
+| Lecture Attendance, Lab Help Session Attendance, Project Progress Updates | 6 |
 
-### Grading Scale
-
-| A | A- | B+ | B | B- | C+ | C | C- | D | F |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 100-93 | 92-90 | 89-87 | 86-83 | 82-80 | 79-77 | 76-73 | 72-70 | 69-60 | 59-0 |
 
 ### Grading Meetings
 
@@ -74,7 +66,7 @@ There will be one larger web or mobile final project that will require you to cr
 
 ### Late Assignments
 
-Programming assignments turned in up to 24 days after the due date will lose 15%. Assignments will NOT be accepted more than 24 after the due date, except in special circumstances – send me an email as soon as possible BEFORE the due date if you are interested in asking for an extension. All requests (including those made before and after the due date) will be handled with my discretion. The Final Project and all components of the project MUST be completed and submitted by the end of finals week.
+Programming assignments turned in up to 24 days after the due date will lose 15%. Assignments will NOT be accepted more than 24 after the due date, except in special circumstances – send me an email as soon as possible BEFORE the due date if you are interested in asking for an extension. All requests (including those made before and after the due date) will be handled at my discretion. The Final Project and all components of the project MUST be completed and submitted the end day of the day after the final for this course.
 
 ### Soft Deadlines
 
