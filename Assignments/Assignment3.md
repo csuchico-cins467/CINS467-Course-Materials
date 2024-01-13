@@ -1,16 +1,49 @@
 # Assignment 3 - Simple UI
 
-## In this assignment your app needs to do the following:
+## In this assignment your app needs to:
 
-* Have Three Buttons
-* Have two Text widgets
-* Update a Text widget contents based on which button was pressed.
+* **Have At Least Three Buttons**
+  * Each button widget must include at least 3 properties:
+    * child (the button's label - often an Icon or Text widget)
+    * onPressed or other callback (something should happen when the button is tapped or otherwise activated)
+      * Each button should have its own unique action.
+      * The label for each button should provide an indication of what the button does when pressed.
+    * style (an instance of the ButtonStyle class that is used to customize the button's appearance)
+      * The buttons must not all look the same.
+      * By default, Flutter adds some style to the buttons, but for this assignment, you need to update at least one aspect of the appearance of each button (e.g. background or foreground color, size or padding, shape, font, etc).
+    * You are encouraged to play around with other button properties in addition to the ones specified above!
+* **Have At Least Two Text Widgets**
+  * Each Text widget must contain at least 2 properties:
+    * data (the text to display)
+    * style (an instance of the TextStyle class that is used to style the text)
+      * by default, all text has some style, but for this assignment, you need to stylize the text in some way other than the default.
+      * The text in each Text widget should have its own unique style.
+      * The TextStyle class is used to format and paint text. **Use at least 2 TextStyle properties** to style the Text widget (notice that you can make changes to color, font, decoration, size, spacing, and more)
+* **Make Updates When Each Button Is Pressed**
+  * When each button is tapped, it should make a change that is visible in the app.
+  * In at least one case, the contents of a Text widget must be updated when a button is pressed. The other buttons may update a Text widget or another aspect of your web app.
+  * Remember that the label of each button (e.g. text or icon) should give some indication of what the button does when pressed
 
-As long as your app does those tasks you will get credit for this assignment.
+Also make sure that you:
+* Submit the assignment correctly
+  * Use a branch called `assignment3`
+  * Submit to your CINS467 GitLab repo
+
+As long as your app does the tasks described above and is submitted correctly, you will get credit for this assignment.
+
+> Note: some aspects of style and layout can be deceptively tricky. Make sure to give yourself time to try out and test various features! Look for code examples and short videos in the official Flutter docs to help with understanding Flutter classes, properties, and methods.
+
+The goal of Assignment 3 is to give you experience creating a simple UI (user interface) with Flutter. Have fun! This is a great time to start thinking about how you want your final project to look, or to just play around, learn about different Flutter features, and figure out how you can customize an app and make it look unique.
 
 ## Getting Graded
 
-When you have your APK move it to the root directory of your GIT repo that you were given to turn in assignments for this class. Do not use Android Studio or VScode to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
+> After completing Option 1 or Option 2, remember to submit your code to the `assignment3` branch!
+
+### Option 1 - Android APK
+
+Create a new APK for this assignment by running the `flutter clean` command, and then running the `flutter build apk` command. For more detailed instructions on creating and locating an APK, refer back to the instructions in [Assignment 1](https://github.com/shelleywong/CINS467-Course-Materials/blob/main/Assignments/Assignment1.md#getting-graded).
+
+When you have your APK, move it to the root directory of your GIT repo that you were given to turn in assignments for this class. You must only have **one** APK in your root directory (remember, each assignment should be submitted to a unique branch, so you can overwrite any previous APKs). Do not use Android Studio or VSCode to manage your VCS/Repo as it may screw up the repo. So for this assignment you should have a directory that looks like the following:
 
 ```
     /
@@ -24,7 +57,7 @@ When you have your APK move it to the root directory of your GIT repo that you w
     ......(Rest of App Files)
 ```
 
-### Alternatively
+### (Alternatively) Option 2 - Web URL
 
 ```
     /
@@ -37,15 +70,24 @@ When you have your APK move it to the root directory of your GIT repo that you w
     ......pubspec.yaml
     ......(Rest of firebase App Files)
 ```
-In your web.md file you should have a web URL for your assignment hosted online. 
+In your web.md file you should have a web URL for your assignment hosted online.
 
 ### Now submit your code to the **assignment3** branch on GitLab:
 
-```
-git checkout -b assignment3 #create branch and switch to it
-git add -A #add all
-git commit -m "Assignment 3 Submission" #Commit changes to branch
-git push --set-upstream origin assignment3 #Push code up to assignment2 branch on remote
+```bash
+git checkout -b assignment3  #create branch and switch to it
+git add -A  #add all
+git commit -m "Assignment 3 Submission"  #Commit changes to branch
+git push origin assignment3  #Push code up to assignment3 branch on remote
 ```
 
-Make sure your branch is exactly named **assignment3** matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+Make sure your branch is exactly named `assignment3` matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+
+If you plan on making multiple updates to the code on this branch, you can include the `--set-upstream` option when you push the code (i.e. `git push --set-upstream origin assignment3`) -- this adds an upstream (tracking) reference so that, any time you push or pull from this branch in the future, you can simply use `git push` or `git pull`, without specifying the remote and branch.
+
+If you would like to merge your `assignment3` branch with your `main` branch, you can run the following commands:
+```bash
+git checkout main  #switch to the main branch
+git merge assignment3  #join the development history from the assignment3 branch with the current (main) branch
+git push origin main  #push the assignment3 history up to the main branch on the remote
+```

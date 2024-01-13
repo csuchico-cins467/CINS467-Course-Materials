@@ -2,24 +2,53 @@
 
 ## In this assignment you will:
 
-* Get your Flutter build environment setup
-* Create your first app
-* Create your first APK (Android Install Package)
-  * Flutter supports iOS development but I'll only be requiring Android results in the class, since iOS development requires having an Apple computer still.
+* [Get Your Flutter Build Environment Setup](#get-your-flutter-build-environment-setup)
+* [Create your first app](#create-your-first-app)
+* [Create your first APK (Android Install Package)](#getting-graded)
+
+> Note: I will only be requiring Android and web results in this class. Flutter supports development for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web, so while we will not focus on developing iPhone apps in this class (since iOS development requires macOS), it should be relatively simple to create an iOS app from your existing Flutter app if you choose to do so in the future.
 
 
 For this first assignment you are getting grade on if you succeed in turning in an Android APK that launches and successfully displays "CINS467 Hello World". This assignment is mostly to make sure you have the build environment setup and can successfully create and export an Android App for grading/install onto phones/devices.
 
-## Getting Build Environment Setup
+## Get Your Flutter Build Environment Setup
 
-To get the build environment on your computer you should go to the [Flutter](https://flutter.io/docs/get-started/install) Download page and follow the directions there.
+To get the build environment on your computer you should go to the [Flutter Install](https://flutter.io/docs/get-started/install) page and follow the directions there for your operating system.
 
-I recommend you develop using the [VScode](https://flutter.io/docs/get-started/editor) with Flutter and Dart plugins, which will be how I'll be developing in class. I still prefer using [Android Studio](https://flutter.io/docs/get-started/editor), which includes the IntelliJ IDE, Android SDK Tools, and Android Emulator all together. You'll also need to add the plugins for Flutter/Dart to Android Studio as directed in that getting started with Android Studio for Flutter link. But easier to demo the code on the projector with VScode, but both are equally good. I do recommend relying on the Flutter commandline directly for building your flutter exports as is more consistent than the built-in plugins for generating your submissions.
+Make sure you:
+* Choose Mobile (Windows) or Android (Mac) for your first type of app
+* Confirm your system requirements meet the minimum requirements
+* Configure a text editor (the Flutter team recommends using Visual Studio Code and the Flutter extension for VS Code)
+* Install the Flutter SDK
+  * Windows users:
+    * Make sure you do NOT install Flutter to a directory or path that contains special characters or spaces, or that requires elevated privileges
+    * Make sure the SDK has been added to PATH
+  * Flutter now provides instructions to use VS Code to install OR to download a provided installation bundle to get the latest stable release of the Flutter SDK
+* Run `flutter doctor` to check your environment and display a report
+  * I recommend running this command with the -v tag for verbose output
 
-Use *flutter doctor -v* to make sure your setup is configured correctly. An example of flutter doctor running successfully on my computer is as follows:
+After you run `flutter doctor -v`, you should see a report displayed to the terminal. Check the output carefully to determine if there is any additional software you need to install or tasks you need to perform. The instructions provided in this report should address your unique environment and the specific tasks that you need to complete; alternatively, you can go back to the installation instructions in the documentation and complete the following.
+
+Make sure you:
+* Can develop for Android
+  * You may use your own Android device or the Android emulator (or both)
+  * If you want to use the Android emulator: Download and install Android Studio (this is the easiest way I know of to work with the Android Virtual Device (AVD) Manager)
+* Can develop for web (this should be setup by default)
+
+Ideally, you will be able to run `flutter doctor -v` and have the report say, "No issues found!" However, there are some cases where having unresolved issues is fine for this class -- remember that XCode (iOS and macOS) is NOT required in CINS 467.
+
+### Code Editing
+
+I recommend you develop using the [VS Code](https://docs.flutter.dev/get-started/editor?tab=vscode) editor with Flutter and Dart plugins, as this is how I'll be developing during class. [Android Studio](https://docs.flutter.dev/get-started/editor?tab=androidstudio), which includes the IntelliJ IDE, Android SDK Tools, and Android Emulator all together, is also a good option for development. For Android Studio, you'll also need to add the plugins for Flutter/Dart as directed in that getting started with Android Studio for Flutter link. It is easier for me to demo the code on the projector with VS Code, but both are equally good.
+
+I do recommend relying on the Flutter command line directly for building your flutter exports, as it is more consistent than the built-in plugins for generating your submissions.
+
+### flutter doctor
+
+Remember to use `flutter doctor -v` to make sure your setup is configured correctly. An example of flutter doctor running successfully on my computer is as follows:
 
 ```bash
-~/$ flutter doctor -v                                               ✔
+~/$ flutter doctor -v
 [✓] Flutter (Channel stable, 3.3.10, on macOS 11.7 20G817 darwin-x64, locale
     en-US)
     • Flutter version 3.3.10 on channel stable at
@@ -70,41 +99,50 @@ Use *flutter doctor -v* to make sure your setup is configured correctly. An exam
 • No issues found!
 ```
 
-## Creating Your First App
+## Create Your First App
 
 **Disclaimer:** *You should go through the steps yourself to create the Hello World app and not just import an existing Hello World app as you'll miss out on going through the steps of creating a new app.*
 
+Remember, the final submission for Assignment 1 may seem simple, but before you can complete the assignment, you will need to do a lot of setup for Flutter and Android. Give yourself time to get everything set up!
+
 ### Requirements:
 
-* Your app should display "CINS467 Hello World"
+* Create an app that displays "CINS467 Hello World" in a Text widget
+* Create an APK for your app
+* Submit the assignment correctly
+  * Use a branch called `assignment1`
+  * Submit to your CINS467 GitLab repo
 
 ### Walk-through
 
-So to start create a "New Flutter Project", which you could do via the VScode or Android studio plugins; however, I would do it in the commandline where you want to host your project code. I would run this in the folder where the repo you'll be submitting to is cloned.
+Start by creating a "New Flutter Project". You can do this via the VScode or Android studio plugins; however, I would do it through the command line, in the file location where you want to host your project code (i.e. I would run this command in the folder where the repo to which you will be submitting is cloned).
 
 ```bash
 ~/repos/CINS467-repo/$ flutter create assignmentproject
 ```
 
-You can name your project whatever you wish, and can use the same project for all of the assignment submissions. I opted to name it *assignmentproject* for my example.
+You can name your project whatever you wish, and you can use the same project for all of the assignment submissions. I opted to name it *AssignmentProject* for my example.
 
-From here edit your main.dart to have a Text widget that says "CINS467 Hello World". The following would work; however, for the *home* component of *MaterialApp* I would **highly recommend** you wrap the Text widget in a *Scaffold/Column* so that the Text widget is centered and easier to see with your required text.
+From here edit your main.dart to have a Text widget that says "CINS467 Hello World". The following works if you update the Text widget; however, for the *home* component of *MaterialApp* I would **highly recommend** you wrap the Text widget in a *Scaffold/Column* so that the Text widget is centered and easier to see with your required text.
 
 ```Dart
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Hello World App',
+      title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        useMaterial3: true,
       ),
-      home: Text("Hello World"),
+      home: const Text('Hello World'),
     );
   }
 }
@@ -112,16 +150,26 @@ class MyApp extends StatelessWidget {
 ```
 ## Getting Graded
 
-Remove the build folder and then explicitly build a new apk:
+> APK stands for Android Package Kit - it is the file format that Android uses to distribute and install apps.
+
+You will need to run the `flutter build apk` command to create a new APK. The command should overwrite any files that are currently in the `build/` directory; however, if you want to be sure you are creating a fresh APK, you can remove the build folder using either `flutter clean` or `rm` (you should not need to run both commands):
 
 ```bash
-~/repos/CINS467-repo/assignmentproject$ rm -rf build
-~/repos/CINS467-repo/assignmentproject$ flutter build apk
+~/repos/CINS467-repo/AssignmentProject$ flutter clean
+~/repos/CINS467-repo/AssignmentProject$ rm -rf build
 ```
 
-Once you find it move it to the root directory of your GIT repo that you created to turn in assignments for this class. The file should be in the build folder path here: *build/app/outputs/flutter-apk/app-release.apk*
+Then explicitly build a new APK:
 
-If you don't have one go use the form on my website to request one. As we'll submit all the assignments for this class to separate branches. You can keep building on the same app for the future submissions as well, just adding the required new features to it.
+```bash
+~/repos/CINS467-repo/AssignmentProject$ flutter build apk
+```
+
+Look for the `app-release.apk` file - it should be located in the build folder path here: `build/app/outputs/apk/release/`. Once you find this .apk file, copy or move it to the root directory of your GIT repo that you created to turn in assignments for this class.
+
+If you don't have a CINS467 GitLab repo, go to Canvas to see the instructions for generating a Git Repo for this class.
+
+You will submit all the assignments for this class to separate branches on your CINS467 repo. You can keep building on the same app for the future submissions as well, just adding the required new features to it, or you can build separate apps in the same directory.
 
 ```
     /
@@ -137,11 +185,20 @@ If you don't have one go use the form on my website to request one. As we'll sub
 
 Now submit your code to the **assignment1** branch:
 
-```
-git checkout -b assignment1 #create branch and switch to it
-git add -A #add all
-git commit -m "Assignment 1 Submission" #Commit changes to branch
-git push --set-upstream origin assignment1 #Push code up to assignment1 branch on remote
+```bash
+git checkout -b assignment1  #create branch and switch to it
+git add -A  #add all
+git commit -m "Assignment 1 Submission"  #Commit changes to branch
+git push origin assignment1  #Push code up to assignment1 branch on remote
 ```
 
-Make sure your branch is exactly named assignment1 matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+Make sure your branch is exactly named `assignment1` matching the case, spacing, etc as my grading script will only pull your submission if it matches exactly.
+
+If you plan on making multiple updates to the code on this branch, you can include the `--set-upstream` option when you push the code (i.e. `git push --set-upstream origin assignment1`) -- this adds an upstream (tracking) reference so that, any time you push or pull from this branch in the future, you can simply use `git push` or `git pull`, without specifying the remote and branch.
+
+If you would like to merge your `assignment1` branch with your `main` branch, you can run the following commands:
+```bash
+git checkout main  #switch to the main branch
+git merge assignment1  #join the development history from the assignment1 branch with the current (main) branch
+git push origin main  #push the assignment1 history up to the main branch on the remote
+```
