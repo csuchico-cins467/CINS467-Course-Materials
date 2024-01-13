@@ -1,6 +1,6 @@
 # CINS 467 Useful Links
 
-* [One Drive Shared Folder]() - Shared folder of lecture slides, recordings, and other materials. Must be authenticated to the campus OneDrive to access.
+* [One Drive Shared Folder](https://csuchico-my.sharepoint.com/:f:/g/personal/bcdixon_csuchico_edu/EsAxYadcodVAjAqaphHA3MsBkSiZFnz0p4TDsXQt_l_9PQ?e=nGfEw5) - Shared folder of lecture slides, recordings, and other materials. Must be authenticated to the campus OneDrive to access.
 
 ## Developing in CINS 467
 
