@@ -166,11 +166,9 @@ Your overall grade in the class includes several components related to the Final
   - In the presentation feedback forms, you should make it obvious to me that you were listening and paying attention to the presentations (I am interested in seeing your thoughts on the project itself)
   - You will need to fill out feedback forms for at least 80% of the presentations to receive full credit for the presentation feedback portion of the grade
 
-* Lecture Attendance, Lab Help Session Attendance, and Project Progress Updates
-  - Lecture Attendance will be tracked through PollEverywhere polls. To be sure your participation is registered, make sure to use an account tied to your csuchico email. You should respond to at least 80% of PollEverywhere polls during class lectures to receive full credit for this portion of the grade.
+* Lab Help Session Attendance
   - Lab Help Session Attendance will be tracked through a sign-in sheet. This is time for you to make incremental progress on your project (and communicate with your partner, if you are working in a pair). To receive full credit for this component, you should attend at least 80% of lab help sessions.
-  - A Project Progress Update Form will be available midway through the semester. Each member of the group needs to submit at least 6 updates (roughly 1 per week at the end of the semester). In the form, you will give a brief update about what you (as an individual) have been working on, any technical hurdles or challenges you have run into, and any goals or priorities you have for the next session. These evaluations are another way you can show me that you are making incremental progress on your project.
-
+ 
 * Final Project
   * Does your project meet the [Project Requirements](#project-requirements)?
   * Have you completed (or made significant progress on) your deliverables?
